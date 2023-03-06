@@ -1,0 +1,37 @@
+//Write your JavaScript below this line
+//var planets = 8;
+//console.log(planets);
+//var favoriteColor = "pink plum";
+//console.log(favoriteColor);
+//var animalName = "camel";
+//console.log(animalName);
+//var name = "Laura";
+//var favoriteSnack = "Kettle chips";
+//console.log("Hi, my name is " + name + " and I wish I had " + favoriteSnack + " right now.");
+//var numberOfHorses = 12;
+//console.log(numberOfHorses);
+//var favoriteFlower = "rose";
+//console.log("My favorite flower is " + favoriteFlower + ".");
+//var city = "Edmonton";
+//var birthDate = "April 20, 1981";
+//console.log("I was born in " + city + " on " + birthDate + ".");
+//var tempCelsius = 10;
+//var toFarenheit = tempCelsius * 1.8 + 32;
+//console.log("Outside my friend's house it's " + tempCelsius + " which is " + toFarenheit + ".");
+//var mealCost = Number(prompt("How much was your meal? (ex: 25.99)"));
+//var tip = Number(prompt("Tip percentage? (ex: 18% for 0.18)"));
+//var tipAmount = mealCost * tip;
+//var total = mealCost + tipAmount;
+//var numOfPeople = Number(prompt("How many people are eating? (Min 1)"));
+//console.log(`Your meal cost $${mealCost}, and with the tip, it comes to $${total.toFixed(2)}. Your share is $${(total / numOfPeople).toFixed(2)}. Hope it was delicious!`);
+//var favoriteColor = prompt("What's your favorite color? (ex. blue)");
+//console.log(`Your favorite color is ${favoriteColor}.`);
+//var name = prompt("What is your name?");
+//var birthYear = prompt("What is your birth year?");
+//console.log(`Your name is ${name} and you're ${2023 - birthYear} years old.`);
+//ar hourlyWage = prompt("What is your hourly wage? (ex. 25.50)");
+//var hoursWorkedWeek = prompt("How many hours are worked in a week? (ex. 40)");
+//console.log(`Weekly pay before taxes is $${(hourlyWage * hoursWorkedWeek).toFixed(2)}.`);
+var weekday = mew Date().toLocaleString("en-US", { weekday: "long" });
+console.log(weekday);
+
